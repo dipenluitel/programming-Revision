@@ -117,16 +117,6 @@ xhttp.send();</code>
           404: "Page not found"
 4. statusText	Returns the status-text (e.g. "OK" or "Not Found")
 <code>
-<!DOCTYPE html>
-<html>
-<body>
-
-<div id="demo">
-<h2>The XMLHttpRequest Object</h2>
-<button type="button" onclick="loadDoc()">Change Content</button>
-</div>
-
-<script>
 function loadDoc() {
   const xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
@@ -138,10 +128,6 @@ function loadDoc() {
   xhttp.open("GET", "ajax_info.txt");
   xhttp.send();
 }
-</script>
-
-</body>
-</html>
 </code>
 
 
