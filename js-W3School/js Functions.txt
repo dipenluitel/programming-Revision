@@ -1,0 +1,26 @@
+Exercise:
+Execute the function named myFunction.
+function myFunction() {
+  alert("Hello World!");
+}
+myFunction();
+
+Exercise 2:
+Create a function called "myFunction".
+functionm myFunction()
+ alert("Hello World!");
+}
+
+Exercise 3:
+Make the function return "Hello".
+function myFunction() {
+  return "Hello";
+}
+document.getElementById("demo").innerHTML = myFunction();
+
+Exercise 4:
+Make the function display "Hello" in the inner HTML of an element with the ID "demo".
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello";
+}
+
