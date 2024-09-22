@@ -1,0 +1,16 @@
+Exercise 1:
+Use the correct Math method to create a random number.
+let r = Math.random();
+
+Exercise 2:
+Use the correct Math method to return the largest number of 10 and 20.
+let x = Math.max(10, 20);
+
+Exercise 3:
+Use the correct Math method to round a number to the nearest integer.
+let x = Math.round(5.3);
+
+Exercise 4:
+Use the correct Math method to get the square root of 9.
+let x = Math.sqrt(9);
+
