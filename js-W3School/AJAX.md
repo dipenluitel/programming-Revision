@@ -130,6 +130,107 @@ function loadDoc() {
 }
 </code>
 
+# AJAX - XMLHttpRequest
+The XMLHttpRequest object is used to request data from a server.
 
+**Send a Request To a Server**
+To send a request to a server, we use the open() and send() methods of the XMLHttpRequest object:
+ <code>
+xhttp.open("GET", "ajax_info.txt", true);
+xhttp.send();
+</code>
+
+** The url - A File On a Server**
+The url parameter of the open() method, is an address to a file on a server:
+<code>
+xhttp.open("GET", "ajax_test.asp", true);
+</code>
+
+**Asynchronous - True or False?**
+Server requests should be sent asynchronously.The async parameter of the open() method should be set to true:
+<code>
+xhttp.open("GET", "ajax_test.asp", true);
+By sending asynchronously, the JavaScript does not have to wait for the server response, but can instead:
+</code>
+1. execute other scripts while waiting for server response
+2. deal with the response after the response is ready
+
+**GET Requests**
+A simple GET request:
+<code>
+xhttp.open("GET", "demo_get.asp");
+xhttp.send();
+</code>
+
+**POST Requests**
+A simple POST request:
+<code>
+xhttp.open("POST", "demo_post.asp");
+xhttp.send();
+</code>
+
+**Synchronous Request**
+To execute a synchronous request, change the third parameter in the open() method to false:
+<code>
+xhttp.open("GET", "ajax_info.txt", false);
+Sometimes async = false are used for quick testing. You will also find synchronous requests in older JavaScript code.
+</code>
+
+#AJAX - Server Response
+Server Response Properties are
+responseText, get the response data as a string.
+responseXML, get the response data as XML data.
+
+**The responseText Property**
+The responseText property returns the server response as a JavaScript string, and you can use it accordingly:
+<code>
+document.getElementById("demo").innerHTML = xhttp.responseText;
+</code>
+
+**The responseXML Property**
+The XMLHttpRequest object has an in-built XML parser.
+The responseXML property returns the server response as an XML DOM object.
+Using this property you can parse the response as an XML DOM object:
+<code>
+const xmlDoc = xhttp.responseXML;
+const x = xmlDoc.getElementsByTagName("ARTIST");
+
+let txt = "";
+for (let i = 0; i < x.length; i++) {
+  txt += x[i].childNodes[0].nodeValue + "<br>";
+}
+document.getElementById("demo").innerHTML = txt;
+
+xhttp.open("GET", "cd_catalog.xml");
+xhttp.send();
+</code>
+
+**Server Response Methods**
+getResponseHeader(), Returns specific header information from the server resource
+getAllResponseHeaders(), Returns all the header information from the server resource
+
+**The getAllResponseHeaders() Method**
+The getAllResponseHeaders() method returns all header information from the server response.
+<code>
+const xhttp = new XMLHttpRequest();
+xhttp.onload = function() {
+    document.getElementById("demo").innerHTML =
+    this.getAllResponseHeaders();
+}
+xhttp.open("GET", "ajax_info.txt");
+xhttp.send();
+</code>
+
+**The getResponseHeader() Method**
+The getResponseHeader() method returns specific header information from the server response.
+<code>
+const xhttp = new XMLHttpRequest();
+xhttp.onload = function() {
+document.getElementById("demo").innerHTML =
+this.getResponseHeader("Last-Modified");
+}
+xhttp.open("GET", "ajax_info.txt");
+xhttp.send();
+</code>
 
 
