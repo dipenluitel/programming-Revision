@@ -10,13 +10,18 @@ AJAX (Asynchronous JavaScript and XML) is a web development technique that allow
 A browser built-in XMLHttpRequest object (to request data from a web server)
 JavaScript and HTML DOM (to display or use the data)
 Key Features of AJAX:
+
 **Asynchronous:* Allows background data retrieval, so the user can continue to interact with the page while data is being fetched.
+
 **JavaScript:* AJAX is primarily used with JavaScript to make requests to the server.
+
 **XML/JSON:* Originally, AJAX used XML for data exchange, but now JSON is more commonly used due to its simplicity and ease of use with JavaScript.
 
 **Common Use Cases for AJAX:**
 **Loading Data:* Fetching data from a server (like user profiles, comments, etc.) without reloading the page.
+
 **Submitting Forms:* Sending form data to the server (like login forms, comments, etc.) without refreshing the page.
+
 **Dynamic Content:* Updating parts of a web page based on user interactions (like a live search feature).
 
 **How AJAX Works**
