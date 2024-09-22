@@ -18,6 +18,7 @@ Key Features of AJAX:
 **XML/JSON:* Originally, AJAX used XML for data exchange, but now JSON is more commonly used due to its simplicity and ease of use with JavaScript.
 
 **Common Use Cases for AJAX:**
+
 **Loading Data:* Fetching data from a server (like user profiles, comments, etc.) without reloading the page.
 
 **Submitting Forms:* Sending form data to the server (like login forms, comments, etc.) without refreshing the page.
