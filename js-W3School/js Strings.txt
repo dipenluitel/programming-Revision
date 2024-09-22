@@ -1,0 +1,17 @@
+Exercise 1:
+Use the length property to alert the length of txt.
+let txt = "Hello World!";
+let x = txt.length;
+alert(x);
+
+Exercise 2:
+Use escape characters to alert We are "Vikings".
+let txt = "We are \"Vikings\"";
+alert(txt);
+
+Exercise 3:
+Concatenate the two strings to alert "Hello World!".
+let str1 = "Hello ";
+let str2 = "World!";
+alert(str1 + str2);
+
