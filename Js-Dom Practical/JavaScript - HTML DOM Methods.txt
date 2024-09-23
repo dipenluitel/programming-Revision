@@ -1,0 +1,3 @@
+Example 1: 
+changing the content of HTML using Javascript.
+<html>
