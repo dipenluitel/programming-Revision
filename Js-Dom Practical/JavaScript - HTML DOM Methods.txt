@@ -1,3 +1,33 @@
-Example 1: 
+Task 1:
 changing the content of HTML using Javascript.
 <html>
+<body>
+<p id="noTest"> Unchanged Content </p>
+<p id="test"> Unchanged Content </p>
+<script>
+document.getElementById("test").innerHTML="Changed Content"
+</script>
+</body>
+</html>
+
+Task 2:
+Change the content of CSS using javascript.
+<html>
+<head>
+<style>
+  #Test{
+    color:blue;
+  }
+</style>
+</head>
+<body>
+<p id="noTest"> Change the color blue to green using JS </p>
+<p id="Test"> Changed color to Green</p>
+
+<script>
+// Correct method and selector to change the color of the paragraph with id="noTest"
+document.getElementById("Test").style.color = "green";
+</script>
+
+</body>
+</html>
