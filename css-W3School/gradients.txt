@@ -1,0 +1,76 @@
+Exercise 1:
+Set a linear gradient background for the <div> element, going from the top to bottom, transitioning from "white" to "green".
+<style>
+div {
+  background-image: linear-gradient(white, green);
+}
+</style>
+<body>
+  <div style="height:200px"></div>
+</body>
+
+Exercise 2:
+Set a linear gradient background for the <div> element, going from left to right.
+<style>
+div {
+  background-image: linear-gradient(to right, white, green);
+}
+</style>
+<body>
+  <div style="height:200px"></div>
+</body>
+
+Exercise 3:
+Set a linear gradient background for the <div> element, going from right to left.
+<style>
+div {
+  background-image: linear-gradient(to left, white, green);
+}
+</style>
+<body>
+  <div style="height:200px"></div>
+</body>
+
+Exercise 4:
+Set a linear gradient background for the <div> element, going diagonally from top left to bottom right.
+<style>
+div {
+  background-image: linear-gradient(to bottom right, white, green);
+}
+</style>
+<body>
+  <div style="height:200px"></div>
+</body>
+
+Exercise 5:
+Set a linear gradient background for the <div> element, going at a 70 degree angle.
+<style>
+div {
+  background-image: linear-gradient(70deg, white, green);
+}
+</style>
+<body>
+  <div style="height:200px"></div>
+</body>
+
+Exercise 6:
+Set a radial gradient background for the <div> element, transitioning from "white" to "green".
+<style>
+div {
+  background-image: radial-gradient(white, green);
+}
+</style>
+<body>
+  <div style="height:200px"></div>
+</body>
+
+Exercise 7:
+Set a radial gradient background for the <div> element, transitioning from "white" to "green", in a circle shape.
+<style>
+div {
+  background-image: radial-gradient(circle, white, green);
+}
+</style>
+<body>
+  <div style="height:200px"></div>
+</body>
