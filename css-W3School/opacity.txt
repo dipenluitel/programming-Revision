@@ -1,0 +1,25 @@
+Exercise:
+Use CSS to set the transparency of the image to 50%.
+<style>
+img {
+  opacity: 50%;
+}
+</style>
+<body>
+  <img src="klematis.jpg" width="150" height="113">
+</body>
+
+Exercise 2:
+Use CSS to "remove" the transparency of the image when the user mouse over the image.
+<style>
+img {
+  opacity: 0.4;
+}
+img:hover {
+  opacity: 1.0;
+}
+</style>
+<body>
+  <img src="klematis.jpg" width="150" height="113">
+</body>
+
