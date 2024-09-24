@@ -1,0 +1,45 @@
+Exercise 1:
+With the transform property, rotate the <div> element 150deg around its X-axis..
+<style>
+div {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  border: 1px solid black;
+  transform: rotatex(150deg);
+}
+</style>
+
+<body>
+  <div>This is a div</div>
+</body>
+
+Exercise 2:
+With the transform property, rotate the <div> element 120deg around its Y-axis.
+<style>
+div {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  border: 1px solid black;
+  transform: rotateY(120deg);
+}
+</style>
+<body>
+  <div>This is a div</div>
+</body>
+
+Exercise 3:
+With the transform property, rotate the <div> element 90deg around its Z-axis.
+<style>
+div {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  border: 1px solid black;
+  transform: rotateZ(90deg);
+}
+</style>
+<body>
+  <div>This is a div</div>
+</body>
