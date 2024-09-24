@@ -1,0 +1,62 @@
+Exercise 1:
+With the transform property, move the <div> element 100px to the right, and 200px down.
+<style>
+div {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  border: 1px solid black;
+  transform: translate(100px, 200px);
+}
+</style>
+<body>
+  <div>This is a div</div>
+</body>
+
+Exercise 2:
+With the transform property, rotate the <div> element 45 degrees.
+<style>
+div {
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+  background-color: lightblue;
+  border: 1px solid black;
+  transform: rotate(45deg);
+}
+</style>
+<body>
+  <div>This is a div</div>
+</body>
+
+Exercise 3:
+With the transform property, change the size of the <div> to half its width, but double its height.
+<style>
+div {
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+  background-color: lightblue;
+  border: 1px solid black;
+  transform: scale(0.5, 2);
+}
+</style>
+<body>
+  <div>This is a div</div>
+</body>
+
+Exercise 3:
+With the transform property, skew the <div> element 20 degrees along the X-axis, and 30 degrees along the Y-axis.
+<style>
+div {
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+  background-color: lightblue;
+  border: 1px solid black;
+  transform: skew(20deg, 30deg);
+}
+</style>
+<body>
+  <div>This is a div</div>
+</body>
