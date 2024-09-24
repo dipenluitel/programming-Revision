@@ -1,0 +1,56 @@
+Exercise 1:
+Force a scroll bar to the <div> element with class="intro".
+<style>
+.intro {
+  width: 200px;
+  height: 70px;
+  overflow: scroll;
+}
+</style>
+<body>
+<div class="intro">
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit.
+Phasellus imperdiet, nulla et dictum interdum,
+nisi lorem egestas odio,
+vitae scelerisque enim ligula venenatis dolor.
+</div>
+</body>
+
+Exercise 2:
+Specify that the overflowing text in the <div> element should not be visible, not even with a scroll bar.
+<style>
+.intro {
+  width: 200px;
+  height: 70px;
+  overflow: hidden;
+}
+</style>
+<body>
+<div class="intro">
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit.
+Phasellus imperdiet, nulla et dictum interdum,
+nisi lorem egestas odio,
+vitae scelerisque enim ligula venenatis dolor.
+</div>
+</body>
+
+Exercise 3:
+Add a horizontal scrollbar to the <div> element.
+<style>
+.intro {
+  width: 200px;
+  height: 70px;
+  overflow-x: scroll;
+}
+</style>
+<body>
+<div class="intro">
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit.
+Phasellus imperdiet, nulla et dictum interdum,
+nisi lorem egestas odio,
+vitae scelerisque enim ligula venenatis dolor.
+</div>
+</body>
