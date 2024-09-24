@@ -1,0 +1,67 @@
+Exercise 1:
+Change the color of all <p> elements, that are descendants of <div> elements, to "red".
+<style>
+div p
+ {
+  color: red;
+}
+</style>
+<body>
+<div>
+  <p>This is a paragraph.</p>
+  <p>This is a paragraph.</p>
+</div>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+</body>
+
+Exercise 2:
+Change the color of all <p> elements, that are immediate children of <div> elements, to "red".
+<style>
+div > p
+ {
+  color: red;
+}
+</style>
+<body>
+<div>
+  <p>This is a paragraph.</p>
+  <p>This is a paragraph.</p>
+</div>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+</body>
+
+Exercise 3:
+Change the color of the first <p> element that is directly after a <div> element, to "red".
+<style>
+div + p
+ {
+  color: red;
+}
+</style>
+<body>
+<div>
+  <p>This is a paragraph.</p>
+  <p>This is a paragraph.</p>
+</div>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+</body>
+
+Exercise 4:
+Change the color of the <p> elements that are siblings of a <div> element, to "red".
+<style>
+div ~ p
+ {
+  color: red;
+}
+</style>
+<body>
+<div>
+  <p>This is a paragraph.</p>
+  <p>This is a paragraph.</p>
+</div>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+</body>
