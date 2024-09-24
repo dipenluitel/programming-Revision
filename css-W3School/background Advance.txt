@@ -1,0 +1,68 @@
+Exercise 1:
+Add two background images to the <body> element.
+img1.gif and img2.gif.
+Make sure that img2.gif is displayed on top of img1.gif.
+<style>
+body {
+  background-image: url("img2.gif"), url("img1.gif");
+}
+</style>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+Exercise 2:
+Set the width of the background image to 100px, and the height to 80px.
+<style>
+body {
+  background-image: url('img1.gif');
+  background-size: 100px 80px;
+  background-repeat: no-repeat;  
+}
+</style>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+Exercise 3:
+Position the two background images in each top corner.
+img1.gif at the left and img2.gif at the right.
+<style>
+body {
+  background-image: url('img1.gif'), url('img2.gif');
+  background-repeat: no-repeat, no-repeat;
+  background-position: left top, right top;
+}
+</style>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+Exercise 4:
+There is a CSS property that allows us to specify if the background image should be positioned according to the border, padding or the content.
+Insert the correct CSS background property, and value, to position the image according to where the content is positioned.
+<style>
+#example1 {
+  padding: 20px;
+  background-image: url('img1.gif');
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+</style>
+
+Exercise 5:
+The background-clip" property has three possible values, insert one of them.
+<style>
+#example1 {
+  border: 10px dotted red;
+  padding: 20px;
+  background-color: yellow;
+  background-clip: padding-box;
+}
+</style>
