@@ -1,0 +1,69 @@
+Exercise 1:
+Set a "2px" horizontal, and "2px" vertical, text shadow for the <h1> element.
+<style>
+h1 {
+  text-shadow: 2px 2px;
+}
+</style>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+Exercise 2:
+Set a "2px" horizontal, and "2px" vertical, "green" text shadow for the <h1> element, with a "5px" blur radius.
+<style>
+h1 {
+  text-shadow: 2px 2px 5px green;
+}
+</style>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+Exercise 3:
+In addition to the green shadow, add a red shadow with 3px horizontal and vertical shadow, and a 10px blur effect.
+<style>
+h1 {
+  text-shadow: 2px 2px 5px green, 3px 3px 10px red;
+}
+</style>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+Exercise 4:
+Set a "10px" horizontal, and "10px" vertical, box shadow for the <div> element.
+<style>
+div {
+  box-shadow: 10px 10px;
+}
+</style>
+<body>
+  <div>
+    <h1>This is a heading</h1>
+    <p>This is a paragraph</p>
+    <p>This is a paragraph</p>
+  </div>
+</body>
+
+Exercise 4:
+Set a "10px" horizontal, and "10px" vertical, "red" box shadow for the <div> element.
+<style>
+div {
+  box-shadow: 10px 10px red;
+}
+</style>
+<body>
+  <div>
+    <h1>This is a heading</h1>
+    <p>This is a paragraph</p>
+    <p>This is a paragraph</p>
+  </div>
+</body>
+
