@@ -1,0 +1,40 @@
+Exercise 1:
+Add a web font with the name "sansation" and the URL "sansation_light.woff".
+<style>
+@font-face
+ {
+  font-family: sansation;
+  src: URL("sansation_light.woff");
+}
+body {
+  font-family: sansation;
+}
+</style>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+Exercise 2:
+Add another @font-face rule for bold characters of the "sansation" font. Use the URL "sansation_bold.woff".
+<style>
+@font-face {
+  font-family: sansation;
+  src: url('sansation_light.woff');
+}
+
+@font-face {
+  font-family: sansation;
+  src: url('sansation_bold.woff');
+  font-weight: bold;
+  }
+body {
+  font-family: sansation;
+}
+</style>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a <b>paragraph</b></p>
+</body>
