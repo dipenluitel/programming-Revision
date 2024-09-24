@@ -1,0 +1,83 @@
+Exercise 1:
+Set the background color to "red" for <a> elements that have a target attribute.
+<style>
+a[target] {
+  background-color: red;
+}
+</style>
+<body>
+  <a href="https://w3schools.com">w3schools.com</a>
+  <a href="http://disney.com" target="_blank">Disney.com</a>
+  <a href="http://wikipedia.org" target="_top">wikipedia.org</a>
+</body>
+
+Exercise 2:
+Set the background color to "red" for <a> elements that have a target attribute with the value "_blank".
+<style>
+a[target="_blank"]
+ {
+  background-color: red;
+}
+</style>
+<body>
+  <a href="https://w3schools.com">w3schools.com</a>
+  <a href="http://disney.com" target="_blank">Disney.com</a>
+  <a href="http://wikipedia.org" target="_top">wikipedia.org</a>
+</body>
+
+Exercise 3:
+Set a border for <img> elements that have a title attribute that contains the word blue.
+<style>
+img
+[title~="blue"] {
+  border: 5px solid red;
+}
+</style>
+<body>
+  <img src="klematis.jpg" title="blue flower">
+  <img src="klematis2.jpg" title="purple flowers">
+  <img src="klematis3.jpg" title="two blue flowers">  
+</body>
+
+Exercise 4:
+Set a border for <img> elements that have a title attribute starting with blue.
+<style>
+img
+[title^="blue"] {
+  border: 5px solid red;
+}
+</style>
+<body>
+  <img src="klematis.jpg" title="blue flower">
+  <img src="klematis2.jpg" title="purple flowers">
+  <img src="klematis3.jpg" title="two blue flowers">  
+</body>
+
+Exercise 5:
+Set a border for <img> elements that have a title attribute ending with the word flower (not flowers).
+<style>
+img
+[title$="flower"] {
+  border: 5px solid red;
+}
+</style>
+<body>
+  <img src="klematis.jpg" title="blue flower">
+  <img src="klematis2.jpg" title="purple flowers">
+  <img src="klematis3.jpg" title="two blue flowers">  
+</body>
+
+Exercise 6:
+Set a border for <img> elements that have a title attribute containing the value flower (hint: flowers also contain flower).
+<style>
+img
+[title*="flower"] {
+  border: 5px solid red;
+}
+</style>
+<body>
+  <img src="klematis.jpg" title="blue flower">
+  <img src="klematis2.jpg" title="purple flowers">
+  <img src="klematis3.jpg" title="two blue flowers">  
+</body>
+
