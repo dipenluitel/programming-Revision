@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript</h1>
+
+<!-- Input field to take the car name -->
+<input type="text" id="test" placeholder="Enter a car name">
+
+<!-- Button to add the input to the array -->
+<button onclick="addCar()">Add Car</button>
+
+<!-- Paragraph to display the updated array -->
+<p id="demo"></p>
+
+<script>
+const cars = ["Volvo"];
+
+// Function to add the value from the input field to the cars array
+function addCar() {
+    // Get the value from the input field
+    var car = document.getElementById("test").value;
+
+    // Check if the input is not empty
+    if (car !== "") {
+        // Push the new car to the array
+        cars.push(car);
+
+        // Display the updated array in the paragraph
+        document.getElementById("demo").innerHTML = cars;
+
+        // Clear the input field after adding
+        document.getElementById("test").value = "";
+    } else {
+        alert("Please enter a car name");
+    }
+}
+</script>
+
+</body>
+</html>
