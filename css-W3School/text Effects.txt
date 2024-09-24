@@ -1,0 +1,46 @@
+Exercise 1:
+Specify that the overflowed content for the <p> element should be signaled with an ellipsis (...).
+<style>
+p {
+  white-space: nowrap; 
+  width: 200px; 
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+</style>
+<body>
+  <p>
+    This paragraph contains a very long word: supercalifragilisticexpialidocious.
+  </p>
+</body>
+
+Exercise 2:
+Specify that text in the <p> element should wrap, even if it needs to split in the middle of a word.
+<style>
+p {
+  width: 150px; 
+  border: 1px solid #000000;
+  word-wrap: break-word;
+}
+</style>
+<body>
+  <p>
+    This paragraph contains a very long word: supercalifragilisticexpialidocious.
+  </p>
+</body>
+
+Exercise 3:
+Specify that text in the <p> element can break between any two letters.
+<style>
+p {
+  width: 150px; 
+  border: 1px solid #000000;
+  word-break: break-all;
+}
+</style>
+<body>
+  <p>
+    This paragraph contains a very long word: supercalifragilisticexpialidocious.
+  </p>
+</body>
