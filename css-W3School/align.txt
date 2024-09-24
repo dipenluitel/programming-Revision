@@ -1,0 +1,37 @@
+Exercise 1:
+Use the margin property to make sure that the <div> element is center aligned according to its parent element.
+<style>
+.intro {
+  width: 200px;
+  margin: auto;
+}
+</style>
+<body>
+<div class="intro">
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit.
+Phasellus imperdiet, nulla et dictum interdum,
+nisi lorem egestas odio,
+vitae scelerisque enim ligula venenatis dolor.
+</div>
+</body>
+
+Exercise 2:
+Position the <div> element all the way to the right by using absolute positioning.
+<style>
+.intro {
+  width: 200px;
+  margin: auto;
+  position: absolute;
+  right: 0px;
+}
+</style>
+<body>
+<div class="intro">
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit.
+Phasellus imperdiet, nulla et dictum interdum,
+nisi lorem egestas odio,
+vitae scelerisque enim ligula venenatis dolor.
+</div>
+</body>
