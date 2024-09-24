@@ -1,0 +1,88 @@
+Exercise 1:
+Add a 2 second transition effect for width changes of the <div> element.
+<style>
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+div:hover {
+  width: 300px;
+}
+</style>
+<body>
+  <div>This is a div</div>
+</body>
+
+Exercise 2:
+Specify that the transition of the <div> element should have a "ease-in-out" speed curve.
+<style>
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+  transition-timing-function: ease-in-out;
+}
+div:hover {
+  width: 300px;
+}
+</style>
+<body>
+  <div>This is a div</div>
+</body>
+
+Exercise 3:
+Specify that the transition of the <div> element should have a "0.5" second delay before starting.
+<style>
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+  transition-delay: 0.5s;
+}
+div:hover {
+  width: 300px;
+}
+</style>
+<body>
+  <div>This is a div</div>
+</body>
+
+Exercise 4:
+Add a 2 second transition effect for background, and transform changes of the <div> element.
+<style>
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: background 2s, transform 2s;
+}
+div:hover {
+  background: blue;
+  transform: rotate(180deg);
+}
+Exercise 5:
+Using the transition shorthand property, specify width changes for the <div> element should have: "2" second duration, "ease-in-out" speed curve, and a "0.5" second delay before starting.
+</style>
+<body>
+  <div>This is a div</div>
+</body>
+<style>
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s ease-in-out 0.5s;
+}
+
+div:hover {
+  width: 400px;
+}
+</style>
+
+<body>
+  <div>This is a div</div>
+</body>
