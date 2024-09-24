@@ -1,0 +1,58 @@
+Exercise 1:
+Position the <h1> element to always be 50px from the top, and 10px from the right, relative to the window/frame edges.
+<style>
+h1 {
+  position: fixed;
+  top: 50px;
+  right: 10px;
+}
+</style>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+Exercise 2:
+Position the <h1> element 50px from the top, relative to its normal position.
+<style>
+h1 {
+  position: relative;
+  top: 50px;
+}
+</style>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+Exercise 3:
+Position the <h1> element 50px from the top, relative to the HTML page.
+<style>
+h1 {
+  position: absolute;
+  top: 50px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+Exercise 4:
+Position the <h1> element 50px from the top, by referring to its class name.
+<style>
+.myheader
+ {
+  position: relative;
+  top: 50px;
+}
+</style>
+<body>
+  <h1 class="myheader">This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
