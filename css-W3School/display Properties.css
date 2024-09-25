@@ -1,0 +1,78 @@
+1. Using Display Block
+This is the default property for <div> elements. It places them vertically, one after another. You can adjust the height and width of a block-level element.
+
+Example: Use the given CSS in above example.
+
+#geeks1 {
+       background: teal;
+       display: block;
+}
+#geeks2 {
+       background: cyan;
+       display: block;
+}
+#geeks3 {
+       background: green;
+       display: block;
+}
+
+2. Using Inline Display
+Use this property to display an element inline. It doesn’t start a new line and respects the content flow.
+
+Example: Use the given CSS in above example.
+
+#geeks1 {
+       background: teal;
+       display: inline;
+}
+#geeks2 {
+       background: cyan;
+       display: inline;
+}
+#geeks3 {
+       background: green;
+       display: inline;
+}
+
+3. Using Display Inline-block
+Combining characteristics of both block and inline, this value allows elements to flow inline while still having block-level properties. It’s useful for creating responsive layouts.
+
+Example: Use the given CSS in above example.
+
+#geeks1 
+{
+        background: teal;
+        display: inline-block;
+} 
+#geeks2 {
+        background: cyan;
+        display: inline-block; 
+} 
+#geeks3 {
+        background: green;
+        display: inline-block;
+}
+
+4. Using Display None:
+This property hides the div or the container which use this property. Using it on one of the div it will make working clear. 
+
+Example: Use the given CSS in above example. 
+
+#geeks2 {
+         background: cyan;
+         display: none;
+} 
+
+Using display flex and display grid:
+These values introduce powerful layout options. Flexbox (display: flex) enables flexible, one-dimensional layouts, while CSS Grid (display: grid) provides two-dimensional grid-based layouts.
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
