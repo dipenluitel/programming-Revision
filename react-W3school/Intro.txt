@@ -1,3 +1,9 @@
+What is React?
+React, sometimes referred to as a frontend JavaScript framework, is a JavaScript library created by Facebook.React is a tool for building UI components.
+
+How does React Work?
+React creates a VIRTUAL DOM in memory. Instead of manipulating the browser's DOM directly, React creates a virtual DOM in memory, where it does all the necessary manipulating, before making the changes in the browser DOM. React only changes what needs to be changed! React finds out what changes have been made, and changes only what needs to be changed.
+
 Why React?
 1. React is a JavaScript library for building user interfaces.
 2. React is used to build single-page applications.
