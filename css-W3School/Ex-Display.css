@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/*Hide an Element - display:none*/
+
+.image1{
+  background-color: red;
+  height:200px;
+  width:200px;
+}
+
+.remove{
+	position: relative;
+    
+}
+.add{
+	position: relative;
+}
+</style>
+</head>
+<body>
+
+<div class="images">
+<div class="image1">
+</div>
+<button class="remove" onclick="remove()">Remove</button>
+<button class="add" onclick="add()">add</button>
+</div>
+<script>
+	function remove(){
+    var remove = document.querySelector(".image1");
+    remove.style.display='none';
+    }
+    function add(){
+    var remove = document.querySelector(".image1");
+    remove.style.display='block';
+    }
+</script>
+</body>
+</html>
+
+
+<a href="https://codepen.io/Dipen-Luitel/pen/GRVgjLW">OUTPUT</a>
