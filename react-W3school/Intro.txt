@@ -1,0 +1,31 @@
+Why React?
+1. React is a JavaScript library for building user interfaces.
+2. React is used to build single-page applications.
+3. React allows us to create reusable UI components.
+
+Creating React App
+Task 1: Run command to create a React application named my-react-app:
+      npx create-react-app my-react-app
+Task 2:Run the React Application
+      cd my-react-app
+      npm start
+
+What You Should Already Know
+Before starting with React.JS, you should have intermediate experience in:
+1. HTML
+2. CSS
+3. JavaScript
+
+Example to print Hello World in React.
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+function Hello(props) {
+  return <h1>Hello World!</h1>;
+}
+
+const container = document.getElementById("root");
+const root = ReactDOM.createRoot(container);
+root.render(<Hello />);
+
+
