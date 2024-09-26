@@ -1,0 +1,72 @@
+div{
+	background: linear-gradient(to right, orange, blue);
+    height: 200px;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.rounded{
+	margin-right: 50px;
+    padding-top: 5px;
+	color:green;
+    background-color:black;
+    border-radius: 50%;
+    font-size:30px;
+    padding:20px;
+}
+
+.rounded:hover{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 9px #999;
+}
+.flat{
+	margin-right: 50px;
+    font-size:30px;
+    color:white;
+    background-color:green;
+    height: 90px;
+    border: 2px solid #04AA6D
+
+}
+
+.flat:hover{
+	scale: 1.1;
+    color: #077b32;
+    border: 2px solid #077b32;
+    background-color: transparent;
+    font-weight: 700;
+    box-shadow: 0 0 40px #077b32;
+
+}
+.threeD{
+    font-size:30px;
+    height: 90px;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Align with other elements */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin around button */
+    cursor: pointer; /* Pointer on hover */
+    transition: all 0.3s ease; /* Smooth transition */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px #999; /* Initial shadow */
+
+}
+.threeD:hover{
+	transform: translateY(-5px); /* Move up */
+    box-shadow: 0 10px #666; /* Deepen shadow */
+    background-color: #45a049; /* Darker green on hover */
+}
